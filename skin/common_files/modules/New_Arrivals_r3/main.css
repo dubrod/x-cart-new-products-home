@@ -1,0 +1,28 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * New Arrivals module CSS stylesheet
+ *  
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Wayne Roddy <wayne@revitalagency.com> 
+ * @version    xcart Gold 4_6
+ * @link       http://www.revitalagency.com/
+ * @see        ____file_see____
+ */
+
+.new-arrivals-cell {
+  width: 100%;
+  clear: both;
+  display: block;
+}
+
+.new-arrivals-cell .content{padding: 0 !important;}
+
+#new-arrivals-table{
+	padding: 5px;
+}
+
+#new-arrivals-table td{border-bottom: 1px solid #ddd; padding: 5px;}
+
+#new-arrivals-table td a.title{font-size: 18px; font-weight: bold;}
